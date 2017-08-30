@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:id="@+id/tvNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="proba"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:text="proba"
+        android:layout_marginLeft="25dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <ImageView
+        android:id="@+id/ivPic"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/tvLocTim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="proba"
+        android:gravity="right"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

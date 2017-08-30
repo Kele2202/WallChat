@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WallChat</string>
+    <string name="mainAct_nickname">Nadimak</string>
+    <string name="mainAct_enter">Prijavi se</string>
+    <string name="settAct_languages">Jezici</string>
+    <string name="settAct_ChooseLang">Odaberi jezik</string>
+    <string-array name="languages">
+        <item>Engleski</item>
+        <item>Hrvatski</item>
+    </string-array>
+</resources>

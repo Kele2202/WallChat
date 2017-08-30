@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "990585219297",
+    "firebase_url": "https://wallchat-255ca.firebaseio.com",
+    "project_id": "wallchat-255ca",
+    "storage_bucket": "wallchat-255ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990585219297:android:63a44980e10feac2",
+        "android_client_info": {
+          "package_name": "com.ferit.kele.wallchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990585219297-mn6c6h096cdfcolpl5o5sdglqh2jj0id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferit.kele.wallchat",
+            "certificate_hash": "773023431cfc8c6ee6db9df454af21128853ea1d"
+          }
+        },
+        {
+          "client_id": "990585219297-8cg6e2cl9psoh3ac75mk2o8350chu7qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV5BgDikaNej6Zcm_dp7Eb-xL1VRUSnIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990585219297-8cg6e2cl9psoh3ac75mk2o8350chu7qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/activity_main">
+
+    <EditText
+        android:id="@+id/etNickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50sp"
+        android:maxLength="30"
+        android:hint="@string/mainAct_nickname"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/btnEnter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        android:inputType="textNoSuggestions"
+        android:gravity="center"
+        android:textColorHint="#7f7f7f"
+        android:textColor="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainAct_enter"
+        android:textColor="#339933"
+        android:textSize="18sp"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="171dp"
+        android:layout_above="@+id/ibSettings"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/settings"
+        android:id="@+id/ibSettings"
+        android:maxWidth="30dp"
+        android:maxHeight="30dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"/>
+</RelativeLayout>

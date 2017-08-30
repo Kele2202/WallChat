@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WallChat</string>
+    <string name="mainAct_nickname">Nickname</string>
+    <string name="mainAct_enter">Enter</string>
+    <string name="settAct_languages">Languages</string>
+    <string name="settAct_ChooseLang">Choose language</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Croatian</item>
+    </string-array>
+</resources>
